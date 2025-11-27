@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,sans-serif;
+    height: 80vh;
+}
+.age-calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 350px;
+}
+.age-calculator input{
+    margin: 10px;
+    width: 95%;
+    border: 2px solid black;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px 0 10px;
+}
+.age-calculator input::placeholder{
+    font-size: 1.1em;
+}
+.age-calculator button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: hsl(0, 0%, 29%);
+    color: white;
+    border-radius: 5px;
+}
+.age-calculator button:hover{
+    background-color: hsl(0, 0%, 19%);
+}
+.age-calculator button:active{
+    background-color: hsl(0, 0%, 14%);
+}
+.age-calculator label{
+    align-self: start;
+}
+#errorDisplay{
+    color: red;
+}
